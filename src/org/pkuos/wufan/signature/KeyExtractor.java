@@ -24,8 +24,10 @@ public class KeyExtractor {
                 String name = null;
                 while((entry = Zin.getNextEntry())!=null && !entry.isDirectory()) {
                     name = entry.getName();
-                    //System.out.println(name.substring(name.length()-4, name.length()));
-                    if (!name.substring(name.length() - 4).equals(".DSA") || !name.substring(0, 8).equals("META-INF")) {
+                    //System.out.println("Tag1:"+name.substring(name.length()-4, name.length()));
+                    if (!(name.substring(name.length() - 4).equals(".DSA") ||
+                            name.substring(name.length() - 4).equals(".RSA")) ||
+                            !name.substring(0, 8).equals("META-INF")) {
                         continue;
                     }
                     fout = new File("keys", name.substring(9)); // Choose 9 because "META-INF".length = 8
@@ -68,7 +70,7 @@ public class KeyExtractor {
     {
         // 计算出命令内容
         String Command = ConfigParser.get_value("jdk_home").toString();
-        Command += "\\bin\\keytool -printcert -file keys\\" + RSA_path.substring(9);
+        Command += "/bin/keytool -printcert -file keys/" + RSA_path.substring(9);
         //System.out.println(Command);
         // 命令行运行
         BufferedReader br = null;
@@ -123,7 +125,7 @@ public class KeyExtractor {
     public static void main(String[] args)
     {
         System.out.println("Main Function Starts.");
-        System.out.println(get_MD5("G:\\3rsa\\Hello_Marc.Android.4.2.20140409053219.apk"));
+        System.out.println(get_MD5("/Users/marchon/Downloads/lanzi.apk"));
         System.out.println("Main Function Ends.");
     }
 }

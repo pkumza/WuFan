@@ -10,6 +10,7 @@ public class testMain {
     {
         System.out.println("我是主函数");
 
-        System.out.println(KeyExtractor.get_MD5("G:\\3rsa\\Hello_Marc.Android.4.2.20140409053219.apk"));
+        System.out.println(KeyExtractor.get_MD5("/Users/marchon/Downloads/lanzi.apk"));//bza
+
     }
 }
