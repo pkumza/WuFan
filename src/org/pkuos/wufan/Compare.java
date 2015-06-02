@@ -44,12 +44,13 @@ public class Compare {
         }
         return 1.0-((double)diff_1_2)/(double)sum_1_2;
     }
-
+    public static final String APK1 = "/Users/marchon/Downloads/lanzi.apk";
+    public static final String APK2 = "/Users/marchon/Downloads/lanzi.apk";
     public static void main(String [] args)
     {
-        // For Test.
+        // For Test
         Compare c = new Compare();
-        double sim = c.get_similarity("/Users/marchon/Downloads/lanzi.apk","/Users/marchon/Downloads/lanzi.apk");
+        double sim = c.get_similarity(APK1,APK2);
         System.out.println("Similarity : "+sim);
     }
 }
