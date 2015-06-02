@@ -100,9 +100,12 @@ public class SmaliConvertor {
             Command += "org/pkuos/wufan/apk2smali/apktool d "+apk_path+ " -o decoded/" + apk_name;
         else
         {
-            System.out.println("Unrecognized Operating System.");
+            if(ConfigParser.get_value("output_on").toString().equals("true"))
+                System.out.println("Unrecognized Operating System.");
+            return "Unrecognized Operating System.";
         }
-        System.out.println(Command);
+        if(ConfigParser.get_value("output_on").toString().equals("true"))
+            System.out.println(Command);
         // 命令行运行
         BufferedReader br = null;
         StringBuilder sb = new StringBuilder();
@@ -129,7 +132,8 @@ public class SmaliConvertor {
                 }
             }
         }
-        System.out.println(sb);
+        if(ConfigParser.get_value("output_on").toString().equals("true"))
+            System.out.println(sb);
         //System.out.println(apk_name);
         delete_lib("decoded/"+apk_name+"/smali");
         return apk_name;
@@ -139,8 +143,6 @@ public class SmaliConvertor {
     public static void main(String [] args)
     {
         // Main Function Just For Test.
-        SmaliConvertor sc = new SmaliConvertor();
-        String u = sc.convert("/Users/marchon/Downloads/lanzi.apk");
-        System.out.println(u);
+
     }
 }

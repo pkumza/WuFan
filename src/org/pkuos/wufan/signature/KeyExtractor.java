@@ -124,8 +124,6 @@ public class KeyExtractor {
 
     public static void main(String[] args)
     {
-        System.out.println("Main Function Starts.");
-        System.out.println(KeyExtractor.get_MD5("/Users/marchon/Downloads/lanzi.apk"));//bza
-        System.out.println("Main Function Ends.");
+        // For Test.
     }
 }

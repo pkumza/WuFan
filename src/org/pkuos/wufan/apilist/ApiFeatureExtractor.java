@@ -203,6 +203,11 @@ public class ApiFeatureExtractor {
     }
     public static void main(String[ ] args)
     {
+        // For Test.
+
+
+
+        /*
         ApiFeatureExtractor e = new ApiFeatureExtractor("decoded/lanzi.apk");
 
         int sum = 0;
@@ -211,5 +216,6 @@ public class ApiFeatureExtractor {
             //System.out.println(e.api_list[i]);
         }
         System.out.println(sum);
+        */
     }
 }
