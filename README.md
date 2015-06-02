@@ -8,3 +8,4 @@ However, the approach achieved in that paper is not easy for use. The input of t
 
 Sample:
 ![sample](https://raw.githubusercontent.com/pkumza/WuFan/master/Sample.png)
+
