@@ -125,7 +125,7 @@ public class KeyExtractor {
     public static void main(String[] args)
     {
         System.out.println("Main Function Starts.");
-        System.out.println(get_MD5("/Users/marchon/Downloads/lanzi.apk"));
+        System.out.println(get_MD5("G:\\3rsa\\Hello_Marc.Android.4.2.20140409053219.apk"));
         System.out.println("Main Function Ends.");
     }
 }

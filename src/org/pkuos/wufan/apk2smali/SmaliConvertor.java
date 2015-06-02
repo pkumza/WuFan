@@ -13,17 +13,7 @@ public class SmaliConvertor {
     private String apk_path = null;
 
     public SmaliConvertor(){
-        // Create decoded directory.
-        File decoded_dir = new File("decoded\\");
-        if(!decoded_dir.exists())
-        {
-            decoded_dir.mkdirs();
-        }
         load_lib_list();
-        /*
-        for(String i:libs){
-            System.out.println(i.toLowerCase());
-        }*/
     }
     private void load_lib_list(){
         File TPL = new File("Third-party_library.txt");
@@ -101,7 +91,7 @@ public class SmaliConvertor {
             apk_name = original_apk_name + String.valueOf(copy);
             apk_decoded_dir = new File("decoded/"+apk_name);
         }
-        String os = ConfigParser.get_value("jdk_home").toString();
+        String os = ConfigParser.get_value("os").toString();
         if(os.equals("mac"))
             Command += "org/pkuos/wufan/apk2smali/apktool d "+apk_path+ " -o decoded/" + apk_name;
         else if(os.equals("windows"))
