@@ -1,5 +1,7 @@
 package org.pkuos.wufan.apk2smali;
 
+import org.pkuos.wufan.config.ConfigParser;
+
 import java.io.*;
 
 /**
@@ -99,7 +101,17 @@ public class SmaliConvertor {
             apk_name = original_apk_name + String.valueOf(copy);
             apk_decoded_dir = new File("decoded/"+apk_name);
         }
-        Command += "org/pkuos/wufan/apk2smali/apktool2.bat d "+apk_path+ " -o decoded/" + apk_name;
+        String os = ConfigParser.get_value("jdk_home").toString();
+        if(os.equals("mac"))
+            Command += "org/pkuos/wufan/apk2smali/apktool d "+apk_path+ " -o decoded/" + apk_name;
+        else if(os.equals("windows"))
+            Command += "org/pkuos/wufan/apk2smali/apktool2.bat d "+apk_path+ " -o decoded/" + apk_name;
+        else if(os.equals("linux"))
+            Command += "org/pkuos/wufan/apk2smali/apktool d "+apk_path+ " -o decoded/" + apk_name;
+        else
+        {
+            System.out.println("Unrecognized Operating System.");
+        }
         System.out.println(Command);
         // 命令行运行
         BufferedReader br = null;
@@ -136,8 +148,9 @@ public class SmaliConvertor {
 
     public static void main(String [] args)
     {
+        // Main Function Just For Test.
         SmaliConvertor sc = new SmaliConvertor();
-        String u = sc.convert("G:\\3rsa\\Hello_Marc.Android.4.2.20140409053219.apk");
+        String u = sc.convert("/Users/marchon/Downloads/lanzi.apk");
         System.out.println(u);
     }
 }
