@@ -1,0 +1,249 @@
+Scribe	Content provider	4785
+Mapsforge	Content provider	1895
+Brightcove	Content provider	1342
+Livestream	Content provider	831
+Mapabc	Content provider	127
+Andnav	Content provider	39
+Quipper	Content provider	16
+Mobiledatagroup	Content provider	0
+Qbiki	Development aid	24349
+Biznessapps	Development aid	18228
+Titanium	Development aid	11666
+Appyet	Development aid	5733
+Kenai	Development aid	1508
+Greendroid	Development aid	1268
+Googlecode	Development aid	726
+Groovy	Development aid	287
+Novell	Development aid	6
+Unity3d	Game engine	31569
+Badlogic	Game engine	8674
+Cocos2dx	Game engine	3503
+Openfeint	Game engine	3086
+Gamesalad	Game engine	798
+Cocos2d	Game engine	640
+Openintents	Game engine	145
+Flurry	Mobile analytics	65515
+Umeng	Mobile analytics	12476
+Crittercism	Mobile analytics	8005
+Localytics	Mobile analytics	4205
+Mixpanel	Mobile analytics	3773
+Comscore	Mobile analytics	2543
+Mobclick	Mobile analytics	2107
+Omniture	Mobile analytics	1521
+Burstly	Mobile analytics	914
+Webtrends	Mobile analytics	857
+Ubikod	Mobile analytics	234
+Ignitevision	Mobile analytics	115
+Spreada	Mobile analytics	115
+Paypal	Payment	25749
+Urbanairship	Payment	15374
+Zong	Payment	2103
+Alipay	Payment	1272
+Fortumo	Payment	188
+Mopay	Payment	32
+Zongfuscated	Payment	8
+Intuit	Payment	7
+Baidu	Search engine	5779
+Google	Search engine	10000
+Wiki	Search engine	7000
+Getjar	Secondary market	865
+Gfan	Secondary market	99
+Ximad	Secondary market	11
+Andengine	Social gaming	6006
+Heyzap	Social gaming	4478
+Scoreloop	Social gaming	2567
+Wiyun	Social gaming	1851
+Papaya	Social gaming	946
+Scoreninja	Social gaming	0
+Facebook	Social networking service	156164
+Twitter4j	Social networking service	63876
+Tencent	Social networking service	7086
+Weibo	Social networking service	2333
+Twitter	Social networking service	2310
+Socialize	Social networking service	1871
+Winterwell	Social networking service	1637
+Renren	Social networking service	536
+Twitterapime	Social networking service	452
+Joelapenna	Social networking service	19
+Admob	Targeted ads	407181
+Revmob	Targeted ads	45911
+Millennialmedia	Targeted ads	40527
+Inmobi	Targeted ads	36440
+Chartboost	Targeted ads	26933
+Smaato	Targeted ads	18008
+Mopub	Targeted ads	16117
+Adwhirl	Targeted ads	13424
+Adfonic	Targeted ads	12447
+Tapjoy	Targeted ads	9991
+Applovin	Targeted ads	9436
+Jumptap	Targeted ads	8267
+Mobclix	Targeted ads	7607
+Playhaven	Targeted ads	7591
+Inneractive	Targeted ads	7437
+Greystripe	Targeted ads	3646
+Mobfox	Targeted ads	3117
+Apsalar	Targeted ads	2961
+Airpush	Targeted ads	2942
+Admarvel	Targeted ads	2924
+Mdotm	Targeted ads	2901
+Tapfortap	Targeted ads	2781
+Apperhand	Targeted ads	2603
+Mediba	Targeted ads	2445
+Zestadz	Targeted ads	2268
+Nbpcorp	Targeted ads	2162
+Adknowledge	Targeted ads	2154
+Cauly	Targeted ads	1725
+Smartadserver	Targeted ads	1689
+Ormma	Targeted ads	1657
+Sponsorpay	Targeted ads	1604
+Leadbolt	Targeted ads	1502
+Mocoplex	Targeted ads	1365
+Adwo	Targeted ads	1238
+Vpon	Targeted ads	1193
+Swarmconnect	Targeted ads	1146
+Pontiflex	Targeted ads	990
+Mobisage	Targeted ads	984
+Xtify	Targeted ads	923
+Vervewireless	Targeted ads	817
+Adchina	Targeted ads	798
+Yume	Targeted ads	794
+Nexage	Targeted ads	734
+Ngigroup	Targeted ads	693
+Madhouse	Targeted ads	612
+Sonicnotify	Targeted ads	610
+Everbadge	Targeted ads	605
+Qwapi	Targeted ads	562
+Medialets	Targeted ads	549
+Vdopia	Targeted ads	526
+Rhythmnewmedia	Targeted ads	513
+Suizong	Targeted ads	507
+Adview	Targeted ads	492
+Wooboo	Targeted ads	455
+Noqoush	Targeted ads	443
+Fiksu	Targeted ads	418
+Adserver	Targeted ads	415
+Admogo	Targeted ads	310
+Kuguo	Targeted ads	255
+Mads	Targeted ads	252
+Widespace	Targeted ads	215
+Yicha	Targeted ads	210
+Casee	Targeted ads	206
+Energysource	Targeted ads	204
+Wqmobile	Targeted ads	202
+Kuad	Targeted ads	182
+Adcenix	Targeted ads	146
+Winad	Targeted ads	144
+Guohead	Targeted ads	124
+Apprupt	Targeted ads	99
+Lmmob	Targeted ads	96
+Fractalist	Targeted ads	74
+Moolah	Targeted ads	59
+Radiumone	Targeted ads	56
+Donson	Targeted ads	53
+Transpera	Targeted ads	43
+Oneriot	Targeted ads	37
+Donple	Targeted ads	29
+Adzhidian	Targeted ads	24
+Sellaring	Targeted ads	15
+Adpooh	Targeted ads	8
+Devsmart	Ui component	457
+Jakewharton	Ui component	213
+Viewpagerindicator	Ui component	24
+Kankan	Ui component	7
+Taptwo	Ui component	0
+Easymock	Ui component	0
+Jsoup	Utility	48458
+Nostra13	Utility	39048
+Acra	Utility	32313
+Oauth	Utility	30601
+Ksoap2	Utility	29732
+Bugsense	Utility	24732
+Loopj	Utility	19455
+Adobe	Utility	19276
+Phonegap	Utility	19249
+Codehaus	Utility	17414
+Kawa	Utility	14647
+Appbrain	Utility	12517
+Appcelerator	Utility	10668
+Ansca	Utility	10617
+Amazon	Utility	9398
+Appmk	Utility	7232
+Osmdroid	Utility	5411
+Anywheresoftware	Utility	5122
+Anddev	Utility	3859
+Amazonaws	Utility	3525
+Qualcomm	Utility	3523
+Roboguice	Utility	3475
+Mozilla	Utility	3459
+Springframework	Utility	3408
+Nuance	Utility	3342
+Actionbarsherlock	Utility	2951
+Github	Utility	2855
+Mcsoxford	Utility	2168
+Htmlcleaner	Utility	1945
+Dom4j	Utility	1795
+Bouncycastle	Utility	1698
+Dropbox	Utility	1504
+Fedorvlasov	Utility	1410
+Ccil	Utility	1250
+Commonsware	Utility	1211
+Aviary	Utility	1197
+Spongycastle	Utility	1070
+Iflytek	Utility	1037
+Ideaworks3d	Utility	891
+Nullwire	Utility	886
+Inapp	Utility	875
+Rosaloves	Utility	789
+Jcifs	Utility	618
+Pjsip	Utility	594
+Fmod	Utility	584
+Bumptech	Utility	573
+Eclipse	Utility	532
+Jboss	Utility	448
+Opencv	Utility	441
+Microsoft	Utility	376
+Htmlparser	Utility	258
+Jcraft	Utility	251
+Restlet	Utility	240
+Skyhookwireless	Utility	179
+Wutka	Utility	146
+Utilities	Utility	135
+Db4o	Utility	121
+Osgi	Utility	102
+Mortbay	Utility	73
+Maps	Utility	65
+Push	Utility	55
+Exchange	Utility	47
+Proguard	Utility	33
+Stericson	Utility	24
+Simpleframework	Utility	20
+Hamcrest	Utility	14
+Yuku	Utility	14
+Thehttpclient	Utility	11
+Motorola	Utility	8
+Jdom	Utility	6
+Min3d	Utility	5
+Relaxng	Utility	4
+Afzkl	Utility	3
+Slf4j	Utility	2
+Ocpsoft	Utility	2
+J256	Utility	1
+Imagezoom	Utility	1
+Helllabs	Utility	1
+Apwidgets	Utility	1
+Aspectj	Utility	0
+Lgpl	Utility	0
+Onbarcode	Utility	0
+Joda	Utility	0
+Jaxen	Utility	0
+Kobjects	Utility	0
+Metalev	Utility	0
+Appmakr	Utility	0
+Yaml	Utility	0
+Jbox2d	Utility	0
+Libsvg	Utility	0
+Objenesis	Utility	0
+Jaudiotagger	Utility	0
+Tecnick	Utility	0
+Achartengine	Utility	0
+fasterxml	Utility	0
