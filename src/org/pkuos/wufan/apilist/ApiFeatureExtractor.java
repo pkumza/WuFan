@@ -23,8 +23,9 @@ public class ApiFeatureExtractor {
     public int[] api_list = new int[StaticConfig.API_NUM_MAX];
     private APIList apiList = new APIList();
 
-    public ApiFeatureExtractor(){
+    public ApiFeatureExtractor(String decoded_path){
         load_lib_list();
+        get_api_map(decoded_path);
     }
     private void load_lib_list(){
         File TPL = new File("Third-party_library.txt");
@@ -45,7 +46,7 @@ public class ApiFeatureExtractor {
         }
     }
 
-    public int api_index(String api)
+    private int api_index(String api)
     {
         if(apiList.apis.length <= 0)
         {
@@ -75,7 +76,7 @@ public class ApiFeatureExtractor {
         return -1;
     }
 
-    public void get_api_map(String decoded_path)
+    private void get_api_map(String decoded_path)
     {
 
         File root = new File(decoded_path);
@@ -202,8 +203,8 @@ public class ApiFeatureExtractor {
     }
     public static void main(String[ ] args)
     {
-        ApiFeatureExtractor e = new ApiFeatureExtractor();
-        e.get_api_map("decoded/lanzi.apk");
+        ApiFeatureExtractor e = new ApiFeatureExtractor("decoded/lanzi.apk");
+
         int sum = 0;
         for(int i = 0 ; i < StaticConfig.API_NUM+10; i++){
             sum += e.api_list[i];
