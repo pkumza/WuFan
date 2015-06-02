@@ -18,7 +18,6 @@ import java.util.Set;
  * 这个类用于解析config.properties文件
  */
 public class ConfigParser {
-
     private static Properties pro = new Properties();
     public ConfigParser(){}
 
