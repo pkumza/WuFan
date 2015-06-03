@@ -36,7 +36,7 @@ For example : jdk\_home=C:\\\\Program Files\\\\Java\\\\jdk1.8.0_25
  3. Run the _main_ function of class __MainFrame__.
 * __Linux__:
  1. Download __WuFan__.
- 2. Edit config.properties. Change __os__ as __mac__ and config your __jdk_home__.
+ 2. Edit config.properties. Change __os__ as __linux__ and config your __jdk_home__.
 <br>
 For example : jdk\_home=/usr/java/jdk1.8.0_25 
  3. Run the _main_ function of class __MainFrame__.
