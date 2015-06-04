@@ -28,6 +28,8 @@ public class ConfigParser {
     }
 
     public static void getProValue(){
+        // 设置文件是config.properties。
+        // 这个类的功能，就是从这个文件中读取内容。
         String filePath = "config.properties";
         InputStream in = null;
         try{

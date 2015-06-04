@@ -6,6 +6,11 @@ import java.io.*;
 
 /**
  * Created by Marchon on 2015/6/1.
+ * Convert apk into smali
+ * apktool is for Unix/Linux.
+ * apktool.bat is for Windows.
+ * they are wrapped script for apktool.jar
+ * The version of apktool.jar is 2.0.0
  */
 public class SmaliConvertor {
 

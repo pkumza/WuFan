@@ -19,10 +19,14 @@ import java.util.regex.Pattern;
  * list的index代表api的种类，value代表频次。
  */
 public class ApiFeatureExtractor {
+    //  libs 用于存放249个，白名单中的第三方库。
     private String [] libs = new String[249];
+    //  api_list用于存储，当前的应用程序app的API调用。
     public int[] api_list = new int[StaticConfig.API_NUM_MAX];
+    //  在APIList类中，会提供apis，也就是Pscout的jellybean的全部的API。
     private APIList apiList = new APIList();
-
+    //  init function.
+    //  Api_map is loaded into int[] api_list
     public ApiFeatureExtractor(String decoded_path){
         load_lib_list();
         get_api_map(decoded_path);
@@ -204,8 +208,6 @@ public class ApiFeatureExtractor {
     public static void main(String[ ] args)
     {
         // For Test.
-
-
 
         /*
         ApiFeatureExtractor e = new ApiFeatureExtractor("decoded/lanzi.apk");

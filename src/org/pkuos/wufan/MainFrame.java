@@ -9,6 +9,8 @@ import java.io.File;
 
 /**
  * Created by marchon on 15/6/2.
+ * 作用：
+ *     作为主要的Frame，创建窗口用的。
  */
 public class MainFrame extends JFrame implements ActionListener{
 
