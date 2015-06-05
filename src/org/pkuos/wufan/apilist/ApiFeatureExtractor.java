@@ -32,7 +32,7 @@ public class ApiFeatureExtractor {
         get_api_map(decoded_path);
     }
     private void load_lib_list(){
-        File TPL = new File("Third-party_library.txt");
+        File TPL = new File("data/Third-party_library.txt");
         BufferedReader reader = null;
         try{
             reader = new BufferedReader(new FileReader(TPL));

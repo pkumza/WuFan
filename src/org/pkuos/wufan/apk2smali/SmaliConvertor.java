@@ -21,7 +21,7 @@ public class SmaliConvertor {
         load_lib_list();
     }
     private void load_lib_list(){
-        File TPL = new File("Third-party_library.txt");
+        File TPL = new File("data/Third-party_library.txt");
         BufferedReader reader = null;
         try{
             reader = new BufferedReader(new FileReader(TPL));
@@ -79,7 +79,7 @@ public class SmaliConvertor {
     {
         apk_path = _apk_path;
         // 计算出命令内容
-        String Command = this.getClass().getResource("/").getPath();
+        String Command = "";
         //System.out.println(Command);
         int path_index = apk_path.lastIndexOf('/')+1;
         if( path_index <  apk_path.lastIndexOf('\\')+1)
@@ -98,11 +98,11 @@ public class SmaliConvertor {
         }
         String os = ConfigParser.get_value("os").toString();
         if(os.equals("mac"))
-            Command += "org/pkuos/wufan/apk2smali/apktool d "+apk_path+ " -o decoded/" + apk_name;
+            Command += "tool/apktool d "+apk_path+ " -o decoded/" + apk_name;
         else if(os.equals("windows"))
-            Command += "org/pkuos/wufan/apk2smali/apktool2.bat d "+apk_path+ " -o decoded/" + apk_name;
+            Command += "tool/apktool2.bat d "+apk_path+ " -o decoded/" + apk_name;
         else if(os.equals("linux"))
-            Command += "org/pkuos/wufan/apk2smali/apktool d "+apk_path+ " -o decoded/" + apk_name;
+            Command += "tool/apktool d "+apk_path+ " -o decoded/" + apk_name;
         else
         {
             if(ConfigParser.get_value("output_on").toString().equals("true"))

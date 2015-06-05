@@ -29,7 +29,7 @@ public class APIList {
 
     private void load_api_list()
     {
-        File allmappings = new File("jellybean_allmappings.txt");
+        File allmappings = new File("data/jellybean_allmappings.txt");
         BufferedReader reader = null;
         int cnt = 0;
         try{

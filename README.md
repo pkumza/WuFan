@@ -8,10 +8,18 @@ We have published a paper named "*WuKong: A Scalable and Accurate Two-Phase Appr
 However, the approach achieved in that paper is not easy for use. The input of that approach is thousands of Android apps, and the output is which app is re-packaged with anothor app. What's more, it takes several days before the results come out. So, we create this simple tool **WuFan** for quick clone detection. All we need to do is choose two apps and press "Compare" Button. Just wait for several seconds and it will give you the similarity of the two apps. The Similarity ranges from 0 to 1.
 
 ##Current Version and Dev Environment
-* __WuFan__ Current Version : 1.0.0
+* __WuFan__ Current Version : 1.0.2
 * JDK Version : Java 1.8.0_25
 * IDE : Intellij Idea 14
 * APKTOOL Version : 2.0.0
+
+##Update History
+### 1.0.2
+Better Architecture for building artifacts.
+### 1.0.1
+Add comments to the code.
+### 1.0.0
+First runnable version.
 
 ##Quick Check
 * Is Java 1.7 or 1.8 installed?
